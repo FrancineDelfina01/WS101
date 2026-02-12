@@ -26,7 +26,6 @@ The purpose of this repository is to:
 - Microsoft Office Tools  
 
 ## 🌐 Social Media & Contact
-- GitHub: https://github.com/your-username  
 - Facebook: https://www.facebook.com/chin.delfina  
 - Email: fjdelfina0892@iskwela.psau.edu.ph
 
