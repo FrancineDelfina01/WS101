@@ -27,9 +27,8 @@ The purpose of this repository is to:
 
 ## 🌐 Social Media & Contact
 - GitHub: https://github.com/your-username  
-- Facebook: https://facebook.com/your-profile  
-- Instagram: https://instagram.com/your-profile  
-- Email: your-email@gmail.com  
+- Facebook: https://www.facebook.com/chin.delfina  
+- Email: fjdelfina0892@iskwela.psau.edu.ph
 
 ## 📌 Notes
 This repository is mainly for educational purposes and personal learning.
