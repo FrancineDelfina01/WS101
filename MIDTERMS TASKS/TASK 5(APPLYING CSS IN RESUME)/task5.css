@@ -1,0 +1,86 @@
+   body {font-family: Georgia, 'Times New Roman', Times, serif;
+         margin: 100px;}
+
+   .main {flex: 1;             
+          background-color:white;
+          padding: 20px;
+          overflow-y: auto;}
+
+   #container {display: flex;
+              height: 100vh;}
+  
+  .SIDEBAR {width: 250px; 
+            background-color: #bdbbbb;
+            padding: 20px; 
+          }
+
+  .SIDEBAR a {text-decoration:none;
+              font-size: 15;
+              display: block;
+              padding: 15px;
+              text-decoration: none;
+             border-bottom: 2px solid #444;}
+
+       /* recheck links chena*/
+     a:link    { color: #c75062;  } 
+     a:visited { color: #874c62; }  
+     a:hover   { color: #bc6676; }  
+     a:active  { color: #b61653; }
+     
+ .h2 {color: darkgrey;}
+
+ .h22 {color: #F4C2C2;}
+  
+  #info { font-size: 12;
+          border-bottom: 2px solid #000;
+         padding-bottom: 5px;           
+         margin-bottom: 15px;}
+  #info p {
+        text-align: left;
+        width: 350px;
+        margin: 0 auto;
+  }
+  #info h2{ text-align: center;}
+
+  #SUM {border-bottom: 2px solid #000; 
+       padding-bottom: 5px;            
+       margin-bottom: 15px;}
+
+  #obj {border-bottom: 2px solid #000; 
+       padding-bottom: 5px;            
+       margin-bottom: 15px;}
+
+  #BIO {border-bottom: 2px solid #000; 
+       padding-bottom: 5px;            
+       margin-bottom: 15px;}
+
+  #edu {border-bottom: 2px solid #000; 
+       padding-bottom: 5px;            
+       margin-bottom: 15px;}
+
+  #sem {border-bottom: 2px solid #000; 
+       padding-bottom: 5px;            
+       margin-bottom: 15px;}
+
+  #hs {border-bottom: 2px solid #000; 
+       padding-bottom: 5px;            
+       margin-bottom: 15px;}
+
+  #ss {border-bottom: 2px solid #000; 
+       padding-bottom: 5px;            
+       margin-bottom: 15px;}
+  
+  #as {border-bottom: 2px solid #000; 
+       padding-bottom: 5px;            
+       margin-bottom: 15px;}
+
+  #cr {border-bottom: 2px solid #000; 
+       padding-bottom: 5px;            
+       margin-bottom: 15px;}
+
+
+   #table {text-align: center; 
+           background-color:#FAFAFA;
+           color: black;}
+
+    img {border-radius: 50%;} 
