@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabTask6</title>
+    <style>
+        #part1 {
+            display: block;
+            border: 2px solid rgb(45, 45, 97);
+            padding: 10px;}
+
+        #part2 {
+            display: inline-block;
+            vertical-align: middle;
+            width: 550px;
+            border: 2px solid rgb(45, 45, 97);
+            padding: 10px;}
+
+        #part2 p {margin: auto;
+                  display: inline;}
+
+        #part2 button {margin-left: 10px;}
+
+        #part3 { border: 2px solid rgb(45, 45, 97);
+                 padding: 10px;}
+
+
+        #part3 img{display: block;
+                   margin-right: auto;
+                   margin-left: auto;
+                   margin-top: auto;}
+        #part3 input{ margin-right: auto;
+                      margin-left: auto;
+                      display: block;
+                      border-radius: 10px;
+                      border: 1px solid black; }
+
+        #part4 {border: 2px solid rgb(45, 45, 97);
+                padding: 15px;}
+
+        #part table{width: 350px;}
+
+        #part4 input {width: 100%;                 
+                      box-sizing: border-box;}
+
+        #part4 td:first-child input {margin-right: 5px;}
+
+        #part4 tr:first-child td {width: 50%;}
+
+        #part4 button {width: 100%;}
+        
+        #part5 {border: 2px solid rgb(45, 45, 97);
+                padding: 15px;}
+        button:active {
+            color: rgb(80, 78, 81);
+        }
+    </style>
+</head>
+<body>
+    <div id="part1">
+        <form>
+        <p><input type="text" size="60" placeholder="Name:"></p>
+        <p><input type="text" size="60" placeholder="Email:"></p>  
+        </form>
+    </div>
+    <br>
+
+    <div id="part2">
+        <p>Would you survive in a horror movie?</p>
+        <button type="YES">YES</button>
+        <button type="NO">NO</button> 
+    </div>
+    <br>
+    <br>
+
+    <div id="part3">
+     <img src="GoogleLogo.png" width="200px" >
+     <br>
+     <form><input type="text" size= "100" placeholder="Search Google or type a URL"></form>
+    </div>
+    <br>
+    
+    <h1 id="h1">CHALLENGE EXERCISES</h1>
+    <div id="part4">
+        <h2>SIGN-UP FORM</h2>
+      <form>
+        <table>
+            <tr>
+              <td><input type="text" placeholder="First Name:"></td>
+              <td><input type="text" placeholder="Last Name:"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" placeholder="Email:"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="Submit">Submit</button></td>
+            </tr>
+        </table>
+      </form>
+    </div>
+    <br>
+
+    <div id="part5">
+        <h2>REQUEST A RIDE NOW</h2>
+      <form>
+        <table>
+            <tr>
+                 <td><input type="text" size="80" placeholder="Enter a Pick-up Location"></td>
+            </tr>
+            <tr>
+                 <td><input type="text" size="80" placeholder="Enter Destination"></td>
+            </tr>
+            <tr>
+                <td><button type="Request now">Request Now</button>
+                <button type="Schedule for later" aria-setsize="80">Schedule for later</button></td>
+            </tr>
+        </table>
+      </form>
+    </div>
+    
+
+
+
+
+
+
+
+
+</body>
+</html>
