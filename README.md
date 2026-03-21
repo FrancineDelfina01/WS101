@@ -93,7 +93,7 @@ h2{
 <h3 id="Projects">Projects</h3>
 <p> Here are my Lab Task </p>
 <h4>Lab Task 1: </h4>
-<a href="TASK 1 (RESUME)/labtask1.html" target="_blank">Open Task no.1 </a>
+<a href="portfolio/labtask1.html" target="_blank">Open Task no.1 </a>
 
 
 
