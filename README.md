@@ -70,7 +70,7 @@ h2{
   </nav>  
 
   
-  <img class="img1" src="portfolio/pic.jpg" >
+  <img class="img1" src="MIDTERMS TASKS/portfolio/pic.jpg" >
   <h2>Francine Jayde S. Delfina</h2>
 
   <p id="Portfolio">Welcome to my WS 101 Portfolio!<br> This portfolio is a glimpse of my learning journey, featuring my lab tasks and the creativity I explored throughout the course.</p>
