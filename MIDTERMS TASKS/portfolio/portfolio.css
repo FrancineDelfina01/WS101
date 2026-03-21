@@ -1,0 +1,51 @@
+body{
+    background-color: #1E1E1E;
+    color: #EAEAEA;
+}
+nav ul{
+    list-style-type:none;
+    background-color: rgb(181, 177, 177);
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+  /*add border radius*/
+}
+nav li{float: right;}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: rgb(245, 148, 196);
+}
+
+a {
+    text-decoration: none;
+}
+.img1 {
+            border-radius: 50%;
+            display:block;
+            margin: auto;
+            border: 3px solid black; 
+            width:250px;
+            
+        }
+#Portfolio{
+    border: 5px solid #D16D9E;;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}    
+h2{
+            text-align: center;
+            color: #D16D9E;
+        }
+#Aboutme{
+    border: 5px solid #D16D9E;;
+    padding: 10px;
+    border-radius: 10px;
+}    
