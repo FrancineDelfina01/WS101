@@ -70,7 +70,7 @@ h2{
   </nav>  
 
   
-  <img class="img1" src="pic.jpg" >
+  <img class="img1" src="portfolio/pic.jpg" >
   <h2>Francine Jayde S. Delfina</h2>
 
   <p id="Portfolio">Welcome to my WS 101 Portfolio!<br> This portfolio is a glimpse of my learning journey, featuring my lab tasks and the creativity I explored throughout the course.</p>
@@ -93,7 +93,7 @@ h2{
 <h3 id="Projects">Projects</h3>
 <p> Here are my Lab Task </p>
 <h4>Lab Task 1: </h4>
-<a href="labtask1.html" target="_blank">Open Task no.1 </a>
+<a href="TASK 1 (RESUME)/labtask1.html" target="_blank">Open Task no.1 </a>
 
 
 
