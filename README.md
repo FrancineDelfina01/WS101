@@ -104,7 +104,7 @@ h2{
   </nav>  
 
   
-  <img class="img1" src="pic.jpg" >
+  <img class="img1" src="MIDTERMS TASKS/portfolio/pic.jpg" >
   <h1>Francine Jayde S. Delfina</h1>
 <div class="topics">
   <h2 style="text-align: center;">Code Canvas: WS101 Creations</h2>
@@ -132,17 +132,17 @@ h2{
 <h2  id="Projects">Projects</h2>
 <p>Hands-on projects from my Web Systems 101. Progressive <strong>HTML & CSS</strong> exercises. From basic layouts to responsive designs—my learning journey in web development.</p><br>
 <h3>Lab Task 1: </h3>
-<a href="labtask1.html" target="_blank" class="link">MidTerm Task 1: Resume Writing using HTML</a>
+<a href="MIDTERMS TASKS/portfolio/labtask1.html" target="_blank" class="link">MidTerm Task 1: Resume Writing using HTML</a>
 <h3>Lab Task 2:</h3>
-<a href="labtask2.html" target="_blank" class="link">Midterm Task 2: HTML List and Tables</a>
+<a href="MIDTERMS TASKS/portfolio/labtask2.html" target="_blank" class="link">Midterm Task 2: HTML List and Tables</a>
 <h3>Lab Task 3:</h3>
-<a href="labtask3.html" target="_blank" class="link">Midterm Task 3: Image Maps</a>
+<a href="MIDTERMS TASKS/portfolio/labtask3.html" target="_blank" class="link">Midterm Task 3: Image Maps</a>
 <h3>Lab Task 4:</h3>
-<a href="labtask4.html" target="_blank" class="link">Midterm Task 4: HTML Forms</a>
+<a href="MIDTERMS TASKS/portfolio/labtask4.html" target="_blank" class="link">Midterm Task 4: HTML Forms</a>
 <h3>Lab Task 5:</h3>
-<a href="labtask5.html" target="_blank" class="link">Midterm Task 5: Using Inline and Internal CSS</a>
+<a href="MIDTERMS TASKS/portfolio/labtask5.html" target="_blank" class="link">Midterm Task 5: Using Inline and Internal CSS</a>
 <h3>Lab Task 6:</h3>
-<a href="labtask6.html" target="_blank" class="link">Midterm Task 6: Using Display Property (Block Level, Inline-Block, Inline) </a>
+<a href="MIDTERMS TASKS/portfolio/labtask6.html" target="_blank" class="link">Midterm Task 6: Using Display Property (Block Level, Inline-Block, Inline) </a>
 </div>
 <div class="topics">
 <h2  id="Contacts">Contact Me</h2>
