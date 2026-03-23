@@ -151,6 +151,5 @@ h2{
 <p><strong>ⓕFacebook:</strong><a href="https://www.facebook.com/chin.delfina/" target="_blank">  Chin Delfina</a>  </p>
 <p><strong>📍Location:</strong> Magalang, Pampanga, Philippines</p>
 </div>
-  
 </body>
-</htm
+</html>
