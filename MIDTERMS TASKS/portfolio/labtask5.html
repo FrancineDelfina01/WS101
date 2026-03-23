@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task 5 </title>
+    <style>
+    * { box-sizing: border-box; }
+    body{
+        background-color: #2A2A2A;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+    
+    img{
+        width: 700px;
+        display: block;
+        margin: auto;
+        border: 3px solid rgb(220, 121, 160);
+            display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    }
+    a {
+        text-decoration: none;
+          color: #D16D9E;
+    }
+    a:hover{
+        color:#FF4FA3;
+        transform: scale(1.05);     
+    box-shadow: 0 0 15px #FF4FA3
+    }
+    .link{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #D16D9E;
+    border-radius: 8px;
+    color: #D16D9E;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+#card {
+    background-color: #2A2A2A;
+    border: 3px solid #D16D9E;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+h1 {
+    border-bottom: 2px solid #444;
+        color: #B0B0B0;
+    margin-bottom: 20px;
+
+}
+#req{
+    border-bottom: 2px solid #444;
+}
+#img1 {
+    border-bottom: 4px solid #444;
+    padding: 15px;
+}
+#img2 {
+     border-bottom: 2px solid #444;
+    padding: 15px;
+}
+h2 {
+    color: #EAEAEA;
+}
+
+@media (max-width: 768px) {
+    #card { width: calc(100% - 1rem); margin: 1rem 0.5rem; }
+    img { width: 250px; }
+}
+</style>
+</head>
+<body>
+    <div id="card">
+    <h1> Midterm Task 5: Using Inline and Internal CSS </h1>
+
+    <div id="req">
+    <h2>Instructions/Requirements</h2>
+
+    <ol type="1">
+     <li>Open your resume Lab Task 1.</li>
+     <li>Apply the ff: requirements</li>
+     <ol type="1">
+      <li>Use Internal CSS and appropriate css selector to do the ff:</li>
+        <ol type="1">
+         <li>Set the body background color to any color you want</li>
+         <li>Adjust the body margins to 100px (top right left and bottom)</li>
+         <li>Set the appropriate font-family for the text content of your
+resume</li>
+        </ol>
+      <li>Use the class selector for all Heading 2 tags used in your resume and
+apply any appropriate color that you want</li>
+      <li>Style the image with a border and center on the page
+(use inline style)</li>
+      <li>Below the image (Center the full name, address, email, and contact
+number height set to 12) –
+Use id selector</li>
+      <li>You may freely add appropriate CSS for the paragraphs and list
+content of your resume</li>
+      <li>Apply appropriate styles for the table as well.
+(use id selector)</li>
+      <li>Link Requirements:</li>
+        <ol type="1">
+            <li>Create an Email link to your email.</li>
+            <li>Create a link within the page using href and id selector for the
+ff:</li>
+              <ul type="round">
+              <li>Summary</li>
+              <li>Education</li>
+              <li>Experience</li>
+              <li>Hardware Skills</li>
+              <li>Software Skills</li>
+              </ul>
+            <li>Remove the underline (text-decorations set to none) for all text links</li>
+            <li>Set a different color for the ff: link state:</li>
+            <ul type="round">
+              <li>a:link - a normal, unvisited link</li>
+              <li>a:visited - a link the user has visited</li>
+              <li>a:hover - a link when the user mouses over it</li>
+              <li>a:active - a link the moment it is click</li>
+              </ul>
+        </ol>
+      <li>At the bottom of the resume add a Back to Top Link (using href and
+id selector)</li>
+     </ol>
+    </div>
+<div id="img1">
+<h2>Output</h2>
+<img src="Sample Output5_1.png">
+<img src="Sample Output5_2.png">
+</div>
+<div id="img2">
+<h2>Codesnap</h2>
+<h3>HTML Codesnap</h3>
+<img src="HTML CODESNAP.png">
+<h3>CSS Codesnap</h3>
+<img src="CSS CODESNAP.png">
+</div>
+<h2>Actual Source Code </h2>
+<a href="task5.html"target="_blank" class="link">View Source Code</a>
+</div>
+</div>
+
+</body>
+</html>
