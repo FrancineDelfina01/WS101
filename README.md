@@ -149,7 +149,7 @@ h2{
 <p><strong>📧Email:</strong><a style="text-decoration: none;"   href="mailto:fjdelfina0892@iskwela.psau.edu.ph">  fjdelfina0892@iskwela.psau.edu.ph</a> </p> 
 <p><strong>📞Phone:</strong>  0926 930 0072 </p>
 <p><strong>ⓕFacebook:</strong><a href="https://www.facebook.com/chin.delfina/" target="_blank">  Chin Delfina</a>  </p>
-<p><strong>📍Location:</strong>Magalang, Pampanga, Philippines</p>
+<p><strong>📍Location:</strong> Magalang, Pampanga, Philippines</p>
 </div>
   
 </body>
