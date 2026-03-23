@@ -133,16 +133,23 @@ h2{
 <p>Hands-on projects from my Web Systems 101. Progressive <strong>HTML & CSS</strong> exercises. From basic layouts to responsive designs—my learning journey in web development.</p><br>
 <h3>Lab Task 1: </h3>
 <a href="MIDTERMS TASKS/portfolio/labtask1.html" target="_blank" class="link">MidTerm Task 1: Resume Writing using HTML</a>
+<a href="MIDTERMS TASKS/TASK 1 (RESUME)/index1.html" target="_blank" class="link">Actual Source Code</a>
 <h3>Lab Task 2:</h3>
 <a href="MIDTERMS TASKS/portfolio/labtask2.html" target="_blank" class="link">Midterm Task 2: HTML List and Tables</a>
+<a href="MIDTERMS TASKS/TASK 2(LISTS)/LISTS.html" target="_blank" class="link">Actual Source Code</a>
 <h3>Lab Task 3:</h3>
 <a href="MIDTERMS TASKS/portfolio/labtask3.html" target="_blank" class="link">Midterm Task 3: Image Maps</a>
+<a href="MIDTERMS TASKS/TASK 3 (IMAGE MAP)/imagemap.html" target="_blank" class="link">Actual Source Code</a>
 <h3>Lab Task 4:</h3>
 <a href="MIDTERMS TASKS/portfolio/labtask4.html" target="_blank" class="link">Midterm Task 4: HTML Forms</a>
+<a href="MIDTERMS TASKS/TASK 4 (TABLE AND HTML FORMS)/TABLES&FORMS.html" target="_blank" class="link">Actual Source Code</a>
 <h3>Lab Task 5:</h3>
 <a href="MIDTERMS TASKS/portfolio/labtask5.html" target="_blank" class="link">Midterm Task 5: Using Inline and Internal CSS</a>
+<a href="MIDTERMS TASKS/TASK 5(APPLYING CSS IN RESUME)/task5.html" target="_blank" class="link">Actual Source Code(HTML) </a>
+<a href="MIDTERMS TASKS/TASK 5(APPLYING CSS IN RESUME)/task5.css" target="_blank" class="link">Actual Source Code(CSS)</a>
 <h3>Lab Task 6:</h3>
 <a href="MIDTERMS TASKS/portfolio/labtask6.html" target="_blank" class="link">Midterm Task 6: Using Display Property (Block Level, Inline-Block, Inline) </a>
+<a href="MIDTERMS TASKS/TASK6(DISPLAY PROPERTY USING CSS)/LabTask6-1.html" target="_blank" class="link">Actual Source Code</a>
 </div>
 <div class="topics">
 <h2  id="Contacts">Contact Me</h2>
