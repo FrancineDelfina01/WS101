@@ -22,8 +22,6 @@ nav ul{
     margin:0px;
     overflow: hidden;
     border-radius: 12px;
-    display: flex;          
-    justify-content: flex-start;
 }
 nav li{float: right;}
 nav li a{
@@ -99,10 +97,10 @@ h2{
 <body>
   <nav>
     <ul>
-    <li><a href="#Aboutme">About Me</a></li>
-    <li><a href="#Education">Education</a></li>
-    <li><a href="#Projects">Projects</a></li>
-    <li><a href="#Contacts">Contacts</a></li>
+     <li><a href="#Contacts">Contacts</a></li>
+     <li><a href="#Projects">Projects</a></li>
+     <li><a href="#Education">Education</a></li>
+     <li><a href="#Aboutme">About Me</a></li>
     </ul>
   </nav>  
 
