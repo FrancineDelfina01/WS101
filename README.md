@@ -111,8 +111,8 @@ h2{
   <p id="Portfolio" style="text-align: center;"> Welcome to my WS 101 Portfolio!<br> This portfolio is a glimpse of my learning journey, featuring my lab tasks and the creativity I explored throughout the course.</p>
 </div>
 
-  <div  class="topics">
-  <h2 id="Aboutme">About me</h2>
+  <div  class="topics"  id="Aboutme">
+  <h2>About me</h2>
   <p> Hi! I'm Francine, a BSIT student at Pampanga State Agricultural University.I have a passion for technology, programming, and problem-solving. I have a solid foundation in computer systems and software applications, along with hands-on experience in Python and Java. I love creating websites using HTML and designing visually appealing projects. I enjoy applying my skills to projects and continuously learning in the ever-evolving field of IT.</p>
   </div>
 <div class="topics">
@@ -128,8 +128,8 @@ h2{
 
 </div>
 
-<div class="topics">
-<h2  id="Projects">Projects</h2>
+<div class="topics" id="Projects">
+<h2 >Projects</h2>
 <p>Hands-on projects from my Web Systems 101. Progressive <strong>HTML & CSS</strong> exercises. From basic layouts to responsive designs—my learning journey in web development.</p><br>
 <h3>Lab Task 1: </h3>
 <a href="MIDTERMS TASKS/portfolio/labtask1.html" target="_blank" class="link">MidTerm Task 1: Resume Writing using HTML</a>
@@ -144,8 +144,8 @@ h2{
 <h3>Lab Task 6:</h3>
 <a href="MIDTERMS TASKS/portfolio/labtask6.html" target="_blank" class="link">Midterm Task 6: Using Display Property (Block Level, Inline-Block, Inline) </a>
 </div>
-<div class="topics">
-<h2  id="Contacts">Contact Me</h2>
+<div class="topics"  id="Contacts">
+<h2 >Contact Me</h2>
 <p><strong>📧Email:</strong><a style="text-decoration: none;"   href="mailto:fjdelfina0892@iskwela.psau.edu.ph">  fjdelfina0892@iskwela.psau.edu.ph</a> </p> 
 <p><strong>📞Phone:</strong>  0926 930 0072 </p>
 <p><strong>ⓕFacebook:</strong><a href="https://www.facebook.com/chin.delfina/" target="_blank">  Chin Delfina</a>  </p>
