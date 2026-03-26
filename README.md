@@ -25,7 +25,7 @@ nav ul{
     display: flex;          
     justify-content: flex-start;
 }
-nav li{float: left;}
+nav li{float: right;}
 nav li a{
     display: block;
     color: #EAEAEA;
