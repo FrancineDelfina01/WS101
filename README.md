@@ -22,6 +22,8 @@ nav ul{
     margin:0px;
     overflow: hidden;
     border-radius: 12px;
+    display: flex;          
+    justify-content: flex-start;
 }
 nav li{float: left;}
 nav li a{
@@ -30,6 +32,7 @@ nav li a{
     text-align: center;
     padding: 20px;
     text-decoration: none;
+     flex: 1;
 }
 nav li a:hover{
     background-color: rgb(245, 148, 196);
@@ -86,7 +89,7 @@ h2{
         flex-direction: column;
     }
     nav li {
-        float: none !important;
+        float: none;
         width: 100%;
     }
 }
