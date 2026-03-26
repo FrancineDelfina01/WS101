@@ -23,7 +23,7 @@ nav ul{
     overflow: hidden;
     border-radius: 12px;
 }
-nav li{float: right;}
+nav li{float: left;}
 nav li a{
     display: block;
     
