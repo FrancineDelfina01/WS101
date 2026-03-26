@@ -26,7 +26,7 @@ nav ul{
 nav li{float: left;}
 nav li a{
     display: block;
-    
+    color: #EAEAEA;
     text-align: center;
     padding: 20px;
     text-decoration: none;
