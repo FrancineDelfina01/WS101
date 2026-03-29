@@ -1,4 +1,5 @@
-* {
+
+    * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;}
@@ -19,10 +20,11 @@ nav ul{
 nav li{float: right;}
 nav li a{
     display: block;
-    
+    color: #EAEAEA;
     text-align: center;
     padding: 20px;
     text-decoration: none;
+     flex: 1;
 }
 nav li a:hover{
     background-color: rgb(245, 148, 196);
@@ -45,6 +47,7 @@ a:hover{
     color: #D16D9E;
     transition: 0.3s;
     margin-top: 5px;
+    margin-bottom: 15px;
 }
 .img1 {
             border-radius: 50%;
@@ -73,13 +76,30 @@ h1{
 h2{
     color: #D16D9E;
 }
+footer{
+    text-align:center; 
+    color:#B0B0B0; 
+    margin: 30px 0;
+}
+#Skills ul li {
+    padding-left: 30px;
+}
+#Skills ul{
+    margin-bottom: 5px;
+}
+.lt{
+    border-left: 3px solid #D16D9E;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
    @media (max-width: 768px) {
     nav ul {
         display: flex;
         flex-direction: column;
     }
     nav li {
-        float: none !important;
+        float: none;
         width: 100%;
     }
 }
+        
