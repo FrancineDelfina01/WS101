@@ -193,6 +193,9 @@ footer{
 <h3 class="lt">Lab Task 6:</h3>
 <p>Explored different display properties in CSS to control how elements appear on a webpage. This improved my understanding of layout and element positioning.</p>
 <a href="MIDTERMS TASKS/portfolio/labtask6.html" target="_blank" class="link">Midterm Task 6: Using Display Property (Block Level, Inline-Block, Inline) </a>
+<h3 class="lt">Lab Task 7:</h3>
+<p>Explored CSS and HTML skills for designing responsive webpage layouts, element positioning, and modern visual styling techniques.</p>
+<a href="MIDTERMS TASKS/portfolio/labtask7.html" target="_blank" class="link">Midterm Final Task 7: GitHub Portfolio</a>
 </div>
 <div class="topics"  id="Contacts">
 <h2 >Contact Me</h2>
