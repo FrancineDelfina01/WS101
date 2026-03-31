@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab Task 4 </title>
-    <style>
-    
-    * { box-sizing: border-box; }
+  <style>
+     * { box-sizing: border-box; }
     body{
         background-color: #2A2A2A;
         color: white;
-        font-family: -apple-system, BlinkMacSystemFont, sans-serif;}
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
     img{
         width: 700px;
         display: block;
         margin: auto;
-        border: 3px solid rgb(220, 121, 160);
+        border: 2px solid rgb(220, 121, 160);
             display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -25,24 +25,29 @@
         text-decoration: none;
           color: #D16D9E;
     }
-    a:hover{
-        color:#FF4FA3;
-        transform: scale(1.05);     
-    box-shadow: 0 0 15px #FF4FA3
-    }
-    .link{
-    display:block;
-    padding: 10px 20px;
-    border: 2px solid #D16D9E;
+   .link {
+    display: block;
+    width: 240px;
+    margin-bottom: 5px;
+    padding: 8px 18px;
+    border: 2px solid #FF69B4;
     border-radius: 8px;
-    color: #D16D9E;
+    color: #FF69B4;
+    font-weight: 500;
     transition: 0.3s;
-    margin-top: 15px;
-    width: 180px;
+    text-decoration: none;
 }
+
+.link:hover {
+    background-color: #FF69B4;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255,105,180,0.4);
+    transform: scale(1.05);
+}
+
 #card {
     background-color: #2A2A2A;
-    border: 3px solid #D16D9E;
+    border: 2px solid rgba(209,109,158,0.6);
     border-radius: 15px;
     padding: 20px;
     margin: 20px auto;
@@ -68,11 +73,11 @@ h1 {
 h2 {
     color: #EAEAEA;
 }
-
 @media (max-width: 768px) {
     #card { width: calc(100% - 1rem); margin: 1rem 0.5rem; }
     img { width: 250px; }
 }
+
 </style>
 </head>
 <body>
