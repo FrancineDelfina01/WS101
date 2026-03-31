@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Canvas: WS101 Creations</title>
-  <link rel="stylesheet" href="portfolio.css">
-<style>
+  <style>
     
     * {
     box-sizing: border-box;
@@ -17,25 +16,27 @@ body{
     color: #EAEAEA;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
-nav ul{
-    list-style-type:none;
-    background-color:  #2A2A2A;
-    padding: 0px;
-    margin:0px;
-    overflow: hidden;
+nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    list-style-type: none;
+    background-color: #2A2A2A;
+    padding: 10px 0;
     border-radius: 12px;
 }
-nav li{float: right;}
-nav li a{
-    display: block;
+
+nav li a {
     color: #EAEAEA;
-    text-align: center;
-    padding: 20px;
     text-decoration: none;
-     flex: 1;
+    padding: 10px 15px;
+    transition: 0.3s;
 }
-nav li a:hover{
-    background-color: rgb(245, 148, 196);
+
+nav li a:hover {
+    background-color: #FF69B4;
+    color: #ffffff;
+    border-radius: 8px;
 }
 
 a {
@@ -47,33 +48,42 @@ a:hover{
         transform: scale(1.05);     
     box-shadow: 0 0 15px #FF4FA3;
     }
-.link{
+.link {
     display: inline-block;
-    padding: 10px 20px;
-    border: 2px solid #D16D9E;
+    padding: 8px 18px;
+    border: 2px solid #FF69B4;
     border-radius: 8px;
-    color: #D16D9E;
+    color: #FF69B4;
+    font-weight: 500;
     transition: 0.3s;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #FF69B4;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255,105,180,0.4);
+    transform: scale(1.05);
 }
 .img1 {
-            border-radius: 50%;
-            display:block;
-            margin: auto;
-            border: 3px solid  #444;
-            width:250px;
-            
-        }
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    width: 180px;
+    border: 4px solid #FF69B4;
+    box-shadow: 0 0 25px rgba(255,105,180,0.5);
+}
 .topics {
-    border: 3px solid #D16D9E;
-    padding: 15px;
+    border: 2px solid rgba(209,109,158,0.6);
+    padding: 20px;
     border-radius: 12px;
     margin: 20px auto;
     width: 80%;
-    max-width: 800px;
-    background-color: #2A2A2A;
+    max-width: 900px;
+    background-color: rgba(42,42,42,0.8); 
+    transition: 0.3s;
 }
+
 ul {
     padding-left: 20px;
 }
@@ -95,10 +105,23 @@ footer{
 #Skills ul{
     margin-bottom: 5px;
 }
-.lt{
-    border-left: 3px solid #D16D9E;
-    padding-left: 10px;
-    margin-bottom: 10px;
+.lt {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(255, 105, 180, 0.1); 
+    color: #ffffff; 
+    transition: 0.3s;
+}
+.lt:hover {
+    transform: translateX(5px);
+    box-shadow: 0 0 15px rgba(255,105,180,0.4);
+}
+#tabi{
+    display: flex; 
+    gap: 20px; 
+    margin: 0 auto;
+    width: 900px;
 }
    @media (max-width: 768px) {
     nav ul {
@@ -111,16 +134,17 @@ footer{
     }
 }
         
-</style>  
+  </style>
+        
 </head>
 <body>
   <nav>
     <ul>
-     <li><a href="#Contacts">Contacts</a></li>
-     <li><a href="#Projects">Projects</a></li>
-     <li><a href="#Education">Education</a></li>
-     <li><a href="#Skills">Skills</a></li>
      <li><a href="#Aboutme">About Me</a></li>
+     <li><a href="#Skills">Skills</a></li>
+     <li><a href="#Education">Education</a></li>
+     <li><a href="#Projects">Projects</a></li>
+     <li><a href="#Contacts">Contacts</a></li>
     </ul>
   </nav>  
 
@@ -133,12 +157,13 @@ footer{
 </div>
 
   <div  class="topics"  id="Aboutme">
-  <h2>About me</h2>
+  <h2>👤 About me</h2>
   <p> Hi! I'm Francine, a BSIT student at Pampanga State Agricultural University.I have a passion for technology, programming, and problem-solving. I have a solid foundation in computer systems and software applications, along with hands-on experience in Python and Java. I love creating websites using HTML and designing visually appealing projects. I enjoy applying my skills to projects and continuously learning in the ever-evolving field of IT.</p>
   </div>
 
+  <div id="tabi">
   <div class="topics" id="Skills">
-<h2>Skills</h2>
+<h2>🧠 Skills</h2>
 <h3>🌐 Web Development</h3>
       <ul style="list-style: none; padding: 0;">
         <li>HTML</li>
@@ -160,9 +185,8 @@ footer{
         <li>Eager to Learn</li>
       </ul>
   </div>
-  
 <div class="topics">
-<h2  id="Education">Education</h2>
+<h2  id="Education">🎓 Education</h2>
   <ul type="round">
    <li><strong>Currently:</strong> Bachelors of Science in Information Technology<br>
         <em>Pampanga State Agricultural University • Expected 2029</em></li>
@@ -171,34 +195,59 @@ footer{
     <li>Elementary School<br><em>San Miguel Elementary School • 2017</em></li>
   </ul>
 </div>
+  </div>
 
 <div class="topics" id="Projects">
-<h2 >Projects</h2>
+<h2 >📂 Projects</h2>
 <p>Hands-on projects from my Web Systems 101. Progressive <strong>HTML & CSS</strong> exercises. From basic layouts to responsive designs—my learning journey in web development.</p><br>
-<h3 class="lt">Lab Task 1: </h3>
+<h2 style="text-align: center; color: #FF69B4; margin-bottom: 20px;">📚 Midterms</h2>
+
+<div class="lt">
+<h3>Lab Task 1: </h3>
 <p>Created a personal resume using basic HTML structure and formatting. This task helped me understand how to organize content using headings, paragraphs, and lists.</p>
 <a href="MIDTERMS TASKS/portfolio/labtask1.html" target="_blank" class="link">MidTerm Task 1: Resume Writing using HTML</a>
-<h3 class="lt">Lab Task 2:</h3>
+</div>
+
+<div class="lt">
+<h3>Lab Task 2:</h3>
 <p>Developed a webpage using ordered and unordered lists, as well as tables. This activity improved my understanding of structuring data and presenting information clearly.</p>
 <a href="MIDTERMS TASKS/portfolio/labtask2.html" target="_blank" class="link">Midterm Task 2: HTML List and Tables</a>
-<h3 class="lt">Lab Task 3:</h3>
+</div>
+
+<div class="lt">
+<h3>Lab Task 3:</h3>
 <p>Created an interactive image map with clickable areas that link to different sections or pages. This task enhanced my knowledge of image mapping and user interaction.</p>
 <a href="MIDTERMS TASKS/portfolio/labtask3.html" target="_blank" class="link">Midterm Task 3: Image Maps</a>
-<h3 class="lt">Lab Task 4:</h3>
+</div>
+
+<div class="lt">
+<h3>Lab Task 4:</h3>
 <p>Built a form that collects user input such as text, selections, and buttons. This helped me learn how forms work and how to structure input fields properly.</p>
 <a href="MIDTERMS TASKS/portfolio/labtask4.html" target="_blank" class="link">Midterm Task 4: HTML Forms</a>
-<h3 class="lt">Lab Task 5:</h3>
+</div>
+
+<div class="lt">
+<h3>Lab Task 5:</h3>
 <p>Applied styling using both inline and internal CSS. This task helped me understand how to design webpages and control layout, colors, and fonts.</p>
 <a href="MIDTERMS TASKS/portfolio/labtask5.html" target="_blank" class="link">Midterm Task 5: Using Inline and Internal CSS</a>
-<h3 class="lt">Lab Task 6:</h3>
+</div>
+
+<div class="lt">
+<h3>Lab Task 6:</h3>
 <p>Explored different display properties in CSS to control how elements appear on a webpage. This improved my understanding of layout and element positioning.</p>
 <a href="MIDTERMS TASKS/portfolio/labtask6.html" target="_blank" class="link">Midterm Task 6: Using Display Property (Block Level, Inline-Block, Inline) </a>
-<h3 class="lt">Lab Task 7:</h3>
+</div>
+
+<div class="lt">
+<h3>Lab Task 7:</h3>
 <p>Explored CSS and HTML skills for designing responsive webpage layouts, element positioning, and modern visual styling techniques.</p>
 <a href="MIDTERMS TASKS/portfolio/labtask7.html" target="_blank" class="link">Midterm Final Task 7: GitHub Portfolio</a>
 </div>
+
+<h2 style="text-align: center; color: #FF69B4; margin-bottom: 20px;">📚 Finals</h2>
+</div>
 <div class="topics"  id="Contacts">
-<h2 >Contact Me</h2>
+<h2 >💬 Contact Me</h2>
 <p><strong>📧Email:</strong><a style="text-decoration: none;"   href="mailto:fjdelfina0892@iskwela.psau.edu.ph">  fjdelfina0892@iskwela.psau.edu.ph</a> </p> 
 <p><strong>📞Phone:</strong>  0926 930 0072 </p>
 <p><strong>ⓕFacebook:</strong><a href="https://www.facebook.com/chin.delfina/" target="_blank">  Chin Delfina</a>  </p>
