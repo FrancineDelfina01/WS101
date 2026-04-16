@@ -510,7 +510,7 @@ footer{
 <div class="lt">
 <h3>Lab Task 1:</h3>
 <p>Applied Flexbox layout techniques for creating responsive webpage designs with multiple breakpoints, implementing desktop, tablet, and mobile displays while maintaining consistent color schemes and modern visual styling.</p>
-<a href="MIDTERMS TASKS/portfolio/labtaskf1.html" target="_blank" class="link">Midterm Final Task 7: GitHub Portfolio</a>
+<a href="MIDTERMS TASKS/portfolio/labtaskf1.html" target="_blank" class="link">Finals Task 1:Creating Responsive Layout using Flex Display Property/a>
 </div>
 </div>
 <div class="topics" id="Contacts">
