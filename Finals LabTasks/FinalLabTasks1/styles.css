@@ -1,0 +1,136 @@
+
+*{box-sizing: border-box; transition: background 1.0s ease, color 0.6s ease, margin 0.6s ease;}
+
+body, .header, .sidebar, .menu, .main, .footer, div { transition: background-color 0.8s cubic-bezier(0.4, 0, 0.2, 1), color 0.6s ease,  border-color 0.8s ease, box-shadow 0.8s ease, transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1); } 
+
+body a {text-decoration: none; color: black;}
+
+/* Emerald & Blue */
+
+body.style1 { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; background: white; color: black;}
+
+body.style1 .header {background-color: rgb(0, 185, 100); color: white;padding: 15px 20px; border-radius: 4px; margin-bottom: 20px;}
+
+body.style1 .container { display: flex; flex-wrap: wrap; gap: 20px; padding: 10px;}
+
+body.style1 .menu { flex: 1 1 200px;}
+
+body.style1 .style-option { display: flexbox; background-color: #f4f4f4; padding: 10px;margin-bottom: 3px; border: 1px solid #ddd; color: black;}
+
+body.style1 .style-option { color: black; }
+
+body.style1 .style-option:hover{background-color: rgb(0, 185, 100); }
+
+body.style1 .main { flex: 3 1 300px; }
+
+body.style1 .sidebar { flex: 1 1 250px; background-color: #3498db; color: black; padding: 20px; border-radius: 4px;}
+
+body.style1 .footer {margin-top: 20px; background-color: #f1f1f1; padding: 15px; border: 1px solid #ccc;}
+
+/* yellow & orange*/
+
+body.style2 {background-color: rgb(179, 106, 3);  color: black;margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif;}
+
+body.style2 .header {background-color: rgb(217, 217, 100); text-align: center; padding: 15px;}
+
+body.style2 .container { display: flex; flex-wrap: wrap; gap: 20px; padding: 10px; background-color: rgb(213, 145, 50); }
+
+body.style2 .menu { flex: 1 1 200px; order: 3; background-color: rgb(244, 244, 104); padding: 10px; }
+
+body.style2 .menu div {border-bottom: 2px solid#626161; margin-top: 5px;}
+
+body.style2 .main { flex: 3 1 300px; order: 2; background-color: rgb(176, 121, 44); padding: 10px;}
+
+body.style2 .sidebar { flex: 1 1 250px; order: 1; background-color: rgb(98, 98, 58); padding: 10px; color: white; }
+
+body.style2 .footer {background-color: rgb(217, 217, 100); text-align: center; padding: 15px;}
+
+/* Dark Modern */
+
+body.style3 {  background: #1e1e1e; color: #eaeaea; font-family: 'Segoe UI', sans-serif;}
+
+body.style3 .header {background: linear-gradient(135deg, #00a86b, #1d0552);padding: 20px; text-align: center; border-radius: 12px; margin: 10px;}
+
+body.style3 .container { display: flex; flex-wrap: wrap; gap: 30px; padding: 10px; }
+
+body.style3 .menu { flex: 2 1 200px; order: 1;  background: #2a2a2a; padding: 15px; border-radius: 12px;}
+
+body.style3 .style-option {background: #3a3a3a; padding: 10px; margin: 5px 0; border-radius: 8px;}
+
+body.style3 .style-option:hover{background: linear-gradient(135deg, #00a86b, #1d0552); }
+
+body.style3 .main {display: flex; order: 3; background: #2a2a2a; padding: 20px; border-radius: 12px;}
+
+body.style3 .sidebar { flex: 3 1 250px; order: 2; background: #23a67a; padding: 20px; border-radius: 12px; color: white; }
+
+body.style3 .footer {margin: 10px; padding: 10px; background: #1c4835; border-radius: 12px; text-align: center;}
+ 
+body.style3 a {color: white;}
+
+/*Pink Theme */
+
+body.style4 { font-family: 'Poppins', 'Segoe UI', system-ui, sans-serif; font-weight: 400; letter-spacing: 0.3px;  background: linear-gradient(135deg, #ffeef8, #ffddf5); color: #333; margin: 20px; line-height: 1.7;}
+
+body.style4 .header { background: linear-gradient(135deg, #ff69b4, #ff1493); color: white; text-align: center; padding: 25px; border: 4px dotted #ffb6c1; border-radius: 15px; margin-bottom: 20px; font-weight: 600; text-shadow: 1px 1px 2px rgba(0,0,0,0.3); font-family: 'Poppins', sans-serif;}
+
+body.style4 h1, body.style4 h2, body.style4 h3 { font-family: 'Poppins', 'Dancing Script', cursive; font-weight: 700; color: #fb0588; text-shadow: 1px 1px 3px rgba(255, 105, 180, 0.4); letter-spacing: 1px;}
+
+body.style4 .footer { background: linear-gradient(135deg, #ff1493, #c71585); color: white;  text-align: center;  padding: 20px;  border: 4px dotted #ffb6c1;  border-radius: 15px;  margin-top: 30px;  font-weight: 500;}
+
+body.style4 .container {  display: flex;  flex-wrap: wrap;  gap: 25px;  padding: 20px;  background: rgba(255, 182, 193, 0.2);  border-radius: 20px;  border: 1px solid rgba(255, 105, 180, 0.3);}
+
+body.style4 .menu {background: linear-gradient(135deg, #ffc0cb, #ff69b4); padding: 20px 15px; border-radius: 15px; display: flex;  flex-direction: row; gap: 10px;  width: 100%;  justify-content: space-between; align-items: center; box-shadow: 0 6px 20px rgba(255, 105, 180, 0.3); }
+
+body.style4 .style-option {  background: rgba(255, 255, 255, 0.95);  padding: 14px;  border-radius: 12px;  border: 2px solid #ff69b4;  cursor: pointer; font-weight: 600; text-align: center; font-size: 15px; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); font-family: 'Poppins', sans-serif; width: 150px;}
+
+body.style4 .style-option{  background: linear-gradient(135deg, #ff69b4, #ff1493);  color: white;  transform: translateY(-3px) scale(1.02);  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.5);}
+
+body.style4 .main {  flex: 3 1 400px;  background: linear-gradient(135deg, #ffb6c1, #ff69b4);  padding: 25px;  border-radius: 15px;  color: white;  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.4); font-family: 'Poppins', sans-serif;}
+
+body.style4 .sidebar {flex: 1 1 250px;background: linear-gradient(135deg, #f13097, #ba2382);padding: 20px;border-radius: 15px;color: white;box-shadow: 0 10px 30px rgba(255, 20, 147, 0.4);font-family: 'Poppins', sans-serif;}
+
+body.style4 a {color: white;}
+
+
+@media (max-width:700px) {
+    body.style1 .container,
+    body.style2 .container,
+    body.style3 .container,
+    body.style4 .container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+    }
+    body.style1 .menu, body.style1 .main, body.style1 .sidebar,
+    body.style2 .menu, body.style2 .main, body.style2 .sidebar,
+    body.style3 .menu, body.style3 .main, body.style3 .sidebar,
+    body.style4 .menu, body.style4 .main, body.style4 .sidebar {
+        flex: 1 1 100%;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+    body.style2 .menu { height: auto; min-height: 160px; }
+    body.style4 .menu { flex-direction: column; min-height: 200px; }
+}
+@media (max-width: 500px) {
+    body { margin: 8px; padding: 5px; }
+    .header, .footer {
+        padding: 15px 12px;
+        font-size: 14px;
+    }
+    .main, .sidebar, .menu {
+        padding: 18px 15px;
+    }
+    .style-option {
+        padding: 16px 14px;
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    h2 { font-size: 1.3em; }
+    h3 { font-size: 1.1em; }
+    .container {
+        gap: 15px;
+        padding: 12px;
+    }
+}
