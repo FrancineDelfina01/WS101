@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+}
+
+.lo4 {
+    background-color: lightgoldenrodyellow;
+}
+
+#rows {
+    margin: 5px; 
+}
+
+#cols1, #cols2, #cols3 {
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    padding: 30px;
+    height: 100%; 
+}
+
+#cols1 { background-color: lightsalmon; }
+#cols2 { background-color: lightcoral; }
+#cols3 { background-color: lightgreen; }
+
+button {
+    border: 2px solid lightslategray;
+    background-color: lightseagreen;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    #layout2,
+    #layout2a,
+    #layout2b{
+        background-color: turquoise;
+    }
+    #layout3,
+    #layout3a{
+        background-color: rgb(5, 58, 123);
+    }
+}
