@@ -512,6 +512,13 @@ footer{
 <p>Applied Flexbox layout techniques for creating responsive webpage designs with multiple breakpoints, implementing desktop, tablet, and mobile displays while maintaining consistent color schemes and modern visual styling.</p>
 <a href="MIDTERMS TASKS/portfolio/labtaskf1.html" target="_blank" class="link"> Finals Task 1: Creating Responsive Layout using Flex Display Property </a>
 </div>
+
+
+<div class="lt">
+<h3>Lab Task 2:</h3>
+<p>Applied Bootstrap Grid layout techniques for creating responsive webpage designs with multiple breakpoints, implementing desktop, tablet, and mobile displays while maintaining consistent color schemes and modern visual styling.</p>
+<a href="MIDTERMS TASKS/portfolio/labtaskf2.html" target="_blank" class="link"> Finals Task 2: Integrating Bootstrap in your Web Design Workflow </a>
+</div>
 </div>
 
 <div class="topics" id="Contacts">
