@@ -519,6 +519,13 @@ footer{
 <p>Applied Bootstrap Grid layout techniques for creating responsive webpage designs with multiple breakpoints, implementing desktop, tablet, and mobile displays while maintaining consistent color schemes and modern visual styling.</p>
 <a href="MIDTERMS TASKS/portfolio/labtaskf2.html" target="_blank" class="link"> Finals Task 2: Integrating Bootstrap in your Web Design Workflow </a>
 </div>
+
+
+<div class="lt">
+<h3>Lab Task 3:</h3>
+<p>Collaborative group project where we combined our ideas and hard work to create a fully functional multi-page website. Applied comprehensive web design principles, custom CSS layouts, and responsive techniques to develop modern styling, navigation, and interactive elements ensuring cross-device compatibility.</p>
+<a href="MIDTERMS TASKS/portfolio/website.html" target="_blank" class="link"> Finals Task 3: Website</a>
+</div>
 </div>
 
 <div class="topics" id="Contacts">
